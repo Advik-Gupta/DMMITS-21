@@ -1,0 +1,11 @@
+How to open website
+
+Go to >>>>>> homepage folder -> then open home.html
+--------------------------------------------------------------------
+Technologies/Resources Used
+
+HTML
+CSS
+JavaSript
+Google Fonts
+--------------------------------------------------------------------
