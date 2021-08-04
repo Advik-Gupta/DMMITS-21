@@ -1,0 +1,448 @@
+.nav-links li a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.header {
+	width: 50%;
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 1em;
+}
+
+
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../ps/products.jpeg);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+	font-size: 2.5em;
+	color: #000;
+	font-family: 'Helvetica', sans-serif;
+	margin-bottom: 0;
+	padding-bottom: 210px;
+	padding-right: 30px;
+	text-align: right;
+}
+
+.hero h1 {
+    font-family: 'Recursive', sans-serif;
+    color: #005ccd;
+    font-size: 2.4em;
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.65em;
+    font-weight: 300;
+}
+
+
+
+/*-----------------------------------------------------------------------------*/
+
+
+
+.item {
+	height: 100vh;
+	width: 100%;	
+	display: flex;
+	align-items: center;
+	padding: 0px 10%;
+}
+
+.item:nth-of-type(even) {
+	height: 100vh;
+	width: 100%;	
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 0px 10%;
+}
+
+
+.details {
+	height: max-content;
+    width: 32%;
+    background-color: #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 1em 1em;
+}
+
+.details h1 {
+	color: #005ccd;
+}
+
+.details-list {
+	list-style: none
+}
+
+.details-list li {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.details a {
+	border: 1px solid black;
+	margin-top: 10px;
+	border-radius: 20px;
+	padding: 3px 0.8em;
+	text-decoration: none;
+	background-color: #fff;
+	color: black;
+	transition: all 0.5s ease-in-out;
+}
+
+.details a:hover {
+	background-color: black;
+	color: #fff;
+	transform: scale(1.1);
+}
+
+
+
+/*-----------------------------------------------------------------------------*/
+
+/*images*/
+
+.specs {
+	background-image: url(../homepage/ps5.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.gameplay {
+	background-image: url(../homepage/image2.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.controller {
+	background-image: url(../ps/controller_1.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.charger {
+	background-image: url(../ps/charger.png);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.vr {
+	background-image: url(../ps/vr.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mindcontrol {
+	background-image: url(../ps/nextmind.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.camera {
+	background-image: url(../ps/camera.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.headset {
+	background-image: url(../ps/headset.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.remote {
+	background-image: url(../ps/remote.png);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*images*/
+
+
+/*-----------------------------------------------------------------------------*/
+
+@media (max-width: 1500px) {
+	.hero h1 {
+    font-family: 'Recursive', sans-serif;
+    font-size: 2.2em;
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6em;
+    font-weight: 300;
+}
+
+@media (max-width: 1300px) {
+	.hero h1 {
+    font-family: 'Recursive', sans-serif;
+    font-size: 2em;
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.48em;
+    font-weight: 300;
+}
+
+}
+
+@media (max-width: 1226px) {
+
+	.details {
+		height: max-content;
+	    width: 42%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+
+.hero h1 {
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.8em;
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.4em;
+    font-weight: 300;
+}
+
+}
+
+
+@media (max-width: 1113px) {
+
+	.details {
+		height: max-content;
+	    width: 52%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+.hero h1 {
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.7em;
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.35em;
+    font-weight: 300;
+}
+
+}
+
+
+@media (max-width: 1050px) {
+
+	.details {
+		height: max-content;
+	    width: 52%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+.hero h1 {
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.5em;
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.3em;
+    font-weight: 300;
+}
+
+}
+
+@media (max-width: 800px) {
+
+	.details {
+		height: max-content;
+	    width: 52%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+.hero h1 {
+    font-family: 'Recursive', sans-serif;
+    font-size: 1.3em;
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.2em;
+    font-weight: 300;
+}
+
+}
+
+
+
+@media (max-width: 760px) {
+
+	.details {
+		height: max-content;
+	    width: 62%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+
+.hero {
+	display: none;
+}
+
+.nav-links li a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+}
+
+
+@media (max-width: 600px) {
+
+	.details {
+		height: max-content;
+	    width: 72%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+
+	.item {
+		height: 100vh;
+		width: 100%;	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 10%;
+	}
+
+}
+
+@media (max-width: 450px) {
+
+	.details {
+		height: max-content;
+	    width: 90%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+
+	.item {
+		height: 100vh;
+		width: 100%;	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 10%;
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	.details {
+		height: max-content;
+	    width: 95%;
+	    background-color: #ebebeb;
+	    border-radius: 10px;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: center;
+	    text-align: center;
+	    padding: 1em 1em;
+	}
+
+	.item {
+		height: 100vh;
+		width: 100%;	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0px 10%;
+	}
+
+}
