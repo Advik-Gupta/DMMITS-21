@@ -1,0 +1,191 @@
+.hero {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../entertainment/tiles.jpg);
+	background-blend-mode: saturation;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2.2em;
+	color: #000;
+	font-family: 'Muli', sans-serif;
+	margin-bottom: 5vh;
+}
+
+.hero h4 {
+	font-size: 0.8em;
+}
+
+.streaming {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.stream {
+	width: 90%;
+	height: 50vh;
+	background-color: #e9e9e9;
+	margin: 2% 3%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 30px;
+	border-radius: 10px;
+	text-align: center;
+	color: black;
+	transition: all 1100ms ease;
+}
+
+.stream:nth-of-type(even) {
+	width: 90%;
+	height: 50vh;
+	background-color: #e9e9e9;
+	margin: 2% 3%;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 10px 30px;
+	border-radius: 10px;
+	text-align: center;
+	color: black;
+	transition: all 1100ms ease;
+}
+
+.stream:nth-of-type(even) img{
+	width: 45vh;
+	height: 45vh;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+.stream img {
+	width: 45vh;
+	height: 45vh;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.stream p {
+	text-align: center;
+	line-height: 1.2;
+	font-size: 1.2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.stream a {
+	border: 1px solid black;
+	margin-top: 8px;
+	border-radius: 20px;
+	padding: 3px 0.8em;
+	text-decoration: none;
+	background-color: #fff;
+	color: black;
+	transition: all 0.5s ease-in-out;
+}
+
+.stream a:hover {
+	background-color: black;
+	color: #fff;
+	transform: scale(1.2);
+}
+
+
+@media (max-width: 1225px) {
+
+	.stream {
+		width: 90%;
+		height: 80vh;
+		background-color: #e9e9e9;
+		margin: 2% 3%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px 30px;
+		border-radius: 10px;
+		text-align: center;
+		color: black;
+		transition: all 1100ms ease;
+	}
+
+	.stream:nth-of-type(even) {
+		width: 90%;
+		height: 80vh;
+		background-color: #e9e9e9;
+		margin: 2% 3%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px 30px;
+		border-radius: 10px;
+		text-align: center;
+		color: black;
+		transition: all 1100ms ease;
+	}
+
+	.stream img {
+		width: 45vh;
+		height: 45vh;
+		border-radius: 10px;
+		margin: 20px 0px;
+	}
+
+}
+
+@media (max-width: 1050px) {
+
+	.stream {
+		width: 90%;
+		height: max-content;
+		background-color: #e9e9e9;
+		margin: 2% 3%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px 30px;
+		border-radius: 10px;
+		text-align: center;
+		color: black;
+		transition: all 1100ms ease;
+	}
+
+	.stream:nth-of-type(even) {
+		width: 90%;
+		height: max-content;
+		background-color: #e9e9e9;
+		margin: 2% 3%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10px 30px;
+		border-radius: 10px;
+		text-align: center;
+		color: black;
+		transition: all 1100ms ease;
+	}
+
+	.stream img {
+		width: 35vh;
+		height: 35vh;
+		border-radius: 10px;
+		margin: 20px 0px;
+	}
+
+	.stream:nth-of-type(even) img{
+	width: 35vh;
+	height: 35vh;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+
+
+}
