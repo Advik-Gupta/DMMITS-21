@@ -7,3 +7,5 @@ Deployed Site - https://dmmits-2021-advikgupta.netlify.app/ <br>
 (According to the rules of the competition the webstite was supposed to be made from only HTML, CSS and vanilla JS, that's why it uses seperate HTML files for every page instead of dynamically rendering them with help of a backend.)
 
 **Update -> This website won DMMITS 2021** <br> **=)**
+
+<img src="https://res.cloudinary.com/advik-gupta/image/upload/v1652430234/ADVIK_GUPTA_guqqtx.png" >
